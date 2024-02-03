@@ -61,6 +61,21 @@ ________________________________________________________________________________
                 </tr>
                 <tr>
                     <td width="40%">
+                        <img width="320" src="../images/DanceControl.jpg" border="0">
+                            </td>
+                    <td>
+                          <b>Text2Avatar: Text to 3D Human Avatar Generation with Codebook-Driven Body Controllable Attribute</b>
+                    <br>
+                    Chaoqun Gong, Yuqin Dai, <strong>Ronghui Li</strong>, Achun Bao, Jun Li, Jian Yang, Yachao Zhang, Xiu Li.
+                    <br>
+                    <em>IEEE International Conference on Acoustics, Speech and Signal Processing
+ (ICASSP 2024)</em>
+                    <br>
+                    [<a href="https://browse.arxiv.org/abs/2401.00711">Paper</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
                         <img width="320" src="../images/FineDance.gif" border="0">
                             </td>
                     <td>
