@@ -61,7 +61,7 @@ ________________________________________________________________________________
                 </tr>
                 <tr>
                     <td width="40%">
-                        <img width="320" src="../images/DanceControl.jpg" border="0">
+                        <img width="320" src="../images/Text2Avatar.jpg" border="0">
                             </td>
                     <td>
                           <b>Text2Avatar: Text to 3D Human Avatar Generation with Codebook-Driven Body Controllable Attribute</b>
