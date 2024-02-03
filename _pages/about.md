@@ -46,6 +46,21 @@ ________________________________________________________________________________
            <tbody>
                 <tr>
                     <td width="40%">
+                        <img width="320" src="../images/DanceControl.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Exploring Multi-Modal Control in Music-Driven Dance Generation</b>
+                    <br>
+                    <strong>Ronghui Li</strong>, Yuqin Dai, Yachao Zhang, Jun Li, Jian Yang, Jie Guo, Xiu Li.
+                    <br>
+                    <em>IEEE International Conference on Acoustics, Speech and Signal Processing
+ (ICASSP 2024)</em>
+                    <br>
+                    [<a href="https://arxiv.org/abs/2401.01382">Paper</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
                         <img width="320" src="../images/FineDance.gif" border="0">
                             </td>
                     <td>
