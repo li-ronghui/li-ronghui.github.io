@@ -37,7 +37,7 @@ table, th, td {
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="Publications"></a> 📚Selected Publications (1️⃣ Equal contribution, 📧 Corresponding author)
+  <a name="Publications"></a> ✨Selected Publications
 </h3>
 
 <font face="helvetica, ariel, &#39;sans serif&#39;">
@@ -50,7 +50,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Cross-Modal Match for Language Conditioned 3D Object Grounding</b>
                     <br>
-                    Yachao Zhang, Runze Hu, </strong>Ronghui Li</strong>, Yanyun Qu, Yuan Xie, Xiu Li📧.
+                    Yachao Zhang, Runze Hu, </strong>Ronghui Li</strong>, Yanyun Qu, Yuan Xie, Xiu Li.
                     <br>
                     <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
                     <br>
@@ -64,7 +64,7 @@ ________________________________________________________________________________
                     <td>
                             <b>Chain of Generation: Multi-Modal Gesture Synthesis via Cascaded Conditional Control</b>
                     <br>
-                     Zunnan Xu，Yachao Zhang，Sicheng Yang，<strong>Ronghui Li</strong>，Xiu Li📧.
+                     Zunnan Xu，Yachao Zhang，Sicheng Yang，<strong>Ronghui Li</strong>，Xiu Li.
                     <br>
                     <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
                     <br>
@@ -81,11 +81,11 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________
 
 <h3>
-  <a name="services"></a> 📠Academic Services
+  <a name="services"></a> Academic Services
 </h3>
 <div class="mini">
   <ul>
-  <li> <strong>Conference Reviewer</strong>: CVPR, ICML, NeurIPS, AAAI, ICCV, ACMMM, ICLR </li>
-  <li> <strong>Journal Reviewer</strong>: IEEE Transactions on Neural Networks and Learning Systems, IEEE Transactions on Intelligent Transportation Systems, IEEE Transactions on Artificial Intelligence, IEEE Transactions on Image Processing</li>
+  <li> <strong>Conference Reviewer</strong>: CVPR </li>
+  <li> <strong>Journal Reviewer</strong>: International Journal of Human-Computer Interaction</li>
   </ul>
 </div>
