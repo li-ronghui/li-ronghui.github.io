@@ -85,7 +85,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE Conference on International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
-                    [<a href="https://arxiv.org/abs/2312.15900">Paper</a>][<a href="https://github.com/li-ronghui/FineDance">Code</a>]
+                    [<a href="https://li-ronghui.github.io/finedance">Project</a>][<a href="https://arxiv.org/abs/2312.15900">Paper</a>][<a href="https://github.com/li-ronghui/FineDance">Code</a>]
                     </td>
                 </tr>
                 <tr>
@@ -99,7 +99,7 @@ ________________________________________________________________________________
                     <br>
                     <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
                     <br>
-                    [<a \Paper</a>][<a href="https://github.com/li-ronghui">Code coming soon!</a>]
+                    [<a> \Paper</a>][<a href="https://github.com/li-ronghui">Code coming soon!</a>]
                     </td>
                 </tr>
                <tr>
@@ -130,7 +130,7 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
-  <li> <strong>Conference Reviewer</strong>: CVPR </li>
+  <li> <strong>Emergency Conference Reviewer</strong>: CVPR24 </li>
   <li> <strong>Journal Reviewer</strong>: International Journal of Human-Computer Interaction (IJHCI)</li>
   </ul>
 </div>
