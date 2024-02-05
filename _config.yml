@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Ronghui Li"
-  avatar           : "images\lrh_white.png"
+  avatar           : "lrh_white.png"
   bio              : "Ph.D. student at Tsinghua University"
   location         : "Shenzhen, China"
   # employer         : "Tsinghua University"
