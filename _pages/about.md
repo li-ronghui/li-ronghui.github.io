@@ -99,7 +99,7 @@ ________________________________________________________________________________
                     <br>
                     <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
                     <br>
-                    [<a> \Paper</a>][<a href="https://github.com/li-ronghui">Code coming soon!</a>]
+                    [<a> Paper</a>][<a href="https://github.com/li-ronghui">Code coming soon!</a>]
                     </td>
                 </tr>
                <tr>
