@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ronghui Li(李镕辉)"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -11,7 +11,7 @@ redirect_from:
 I am currently a second-year Ph.D. student at Shenzhen International Graduate School, Tsinghua University supervised by Prof. Xiu Li. 
 Prior to that, I received my M.Eng. from Northeastern University (China) under the supervision of Assoc. Prof. Lu Meng. 
 
-Now, I'm passion about human-centric topics, including <strong>character animation, motion recognition, 3D vison, and Generative Model</strong>. 
+I'm passion about human-centric topics, including <strong>character animation, motion recognition, 3D vison, and Generative Model</strong>. 
 
 
 
