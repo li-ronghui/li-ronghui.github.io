@@ -11,7 +11,7 @@ redirect_from:
 I am currently a second-year Ph.D. student at Shenzhen International Graduate School, Tsinghua University supervised by Prof. Xiu Li. 
 Prior to that, I received my M.Eng. from Northeastern University (China) under the supervision of Assoc. Prof. Lu Meng. 
 
-My research interests are in <strong>character animation, motion recognition, 3D vison, and Generative Model</strong>. 
+Now, I'm passion about human-centric topics, including <strong>character animation, motion recognition, 3D vison, and Generative Model</strong>. 
 
 
 
@@ -130,7 +130,7 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
-  <li> <strong>Emergency Conference Reviewer</strong>: CVPR24 </li>
+  <li> <strong>Emergency Conference Reviewer</strong>: CVPR </li>
   <li> <strong>Journal Reviewer</strong>: International Journal of Human-Computer Interaction (IJHCI)</li>
   </ul>
 </div>
