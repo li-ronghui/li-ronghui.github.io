@@ -21,9 +21,10 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
+  <li> <strong>[Dec 2024]</strong> One fist-author paper about long dance generation accepted by CVPR 2024!</li>
   <li> <strong>[Dec 2023]</strong> Two papers about controllable human generation and controllable dance generation are accepted by ICASSP 2024!</li>
   <li> <strong>[Dec 2023]</strong> Two papers about 3D object grounding and gestures generation are accepted by AAAI 2024!</li>
-  <li> <strong>[Jul 2023]</strong> One papers about Music driven dance generation accepted by ICCV 2023!</li>
+  <li> <strong>[Jul 2023]</strong> One paper about Music driven dance generation accepted by ICCV 2023!</li>
   </ul>
 </div>
 
@@ -44,6 +45,21 @@ ________________________________________________________________________________
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder">
            <tbody>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/Lodge_show.gif" border="0">
+                            </td>
+                    <td>
+                            <b>Lodge: A Coarse to Fine Diffusion Network for Long Dance Generation Guided by the Characteristic Dance Primitives</b>
+                    <br>
+                    <strong>Ronghui Li</strong>, Yuxiang Zhang, Yachao Zhang, Yachao Zhang, Hongwen Zhang, Jie Guo, Yan Zhang, Yebin Liu, Xiu Li.
+                    <br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition
+ (ICASSP 2024)</em>
+                    <br>
+                    [<a href="https://arxiv.org/abs/2401.01382">Paper</a>]
+                    </td>
+                </tr>
                 <tr>
                     <td width="40%">
                         <img width="320" src="../images/DanceControl.jpg" border="0">
