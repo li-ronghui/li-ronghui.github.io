@@ -21,10 +21,10 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
-  <li> <strong>[Dec 2024]</strong> One fist-author paper about long dance generation accepted by CVPR 2024!</li>
-  <li> <strong>[Dec 2023]</strong> Two papers about controllable human generation and controllable dance generation are accepted by ICASSP 2024!</li>
+  <li> <strong>[Dec 2024]</strong> One first-author paper about long dance generation accepted by CVPR 2024!</li>
+  <li> <strong>[Dec 2023]</strong> One first-author paper about controllable dance generation accepted by ICASSP 2024!</li>
   <li> <strong>[Dec 2023]</strong> Two papers about 3D object grounding and gestures generation are accepted by AAAI 2024!</li>
-  <li> <strong>[Jul 2023]</strong> One paper about Music driven dance generation accepted by ICCV 2023!</li>
+  <li> <strong>[Jul 2023]</strong> One first-author paper about music driven dance generation accepted by ICCV 2023!</li>
   </ul>
 </div>
 
@@ -55,9 +55,9 @@ ________________________________________________________________________________
                     <strong>Ronghui Li</strong>, Yuxiang Zhang, Yachao Zhang, Yachao Zhang, Hongwen Zhang, Jie Guo, Yan Zhang, Yebin Liu, Xiu Li.
                     <br>
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition
- (ICASSP 2024)</em>
+ (CVPR 2024)</em>
                     <br>
-                    [<a href="https://arxiv.org/abs/2401.01382">Paper</a>]
+                    [<a> Paper and Code Coming soon. </a>]
                     </td>
                 </tr>
                 <tr>
@@ -99,7 +99,7 @@ ________________________________________________________________________________
                     <br>
                     <strong>Ronghui Li</strong>, Junfan Zhao,  Yachao Zhang, Mingyang Su, Zeping Ren, Han Zhang, Yansong Tang, Xiu Li.
                     <br>
-                    <em>IEEE Conference on International Conference on Computer Vision (ICCV 2023)</em>
+                    <em>IEEE/CVF Conference on International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
                     [<a href="https://li-ronghui.github.io/finedance">Project</a>][<a href="https://arxiv.org/abs/2312.15900">Paper</a>][<a href="https://github.com/li-ronghui/FineDance">Code</a>]
                     </td>
