@@ -112,19 +112,17 @@
                     <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution, <sup>* Indicates Corresponding Authors </sup></small></span> -->
                   </div>
 
-                  <div class="column has-text-centered">
+                  <!-- <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <!-- <a href="https://arxiv.org/pdf/2212.03741.pdf" target="_blank" -->
-                        <a  target="_blank
+                        <a href="https://arxiv.org/pdf/2212.03741.pdf" target="_blank"
                         class="external-link ">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
                         <span>Paper</span>
                       </a>
-                    </span>
+                    </span> -->
 
                     <!-- Supplementary PDF link -->
                     <!-- <span class="link-block">
@@ -251,8 +249,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Generating full-body and multi-genre dance sequences from given music is a challenging task, due to the limitations of existing datasets and the inherent complexity of the fine-grained hand motion and dance genres. To address these problems, we propose FineDance, which contains 14.6 hours of music-dance paired data, with fine-grained hand motions, fine-grained genres (22 dance genres), and accurate posture. To the best of our knowledge, FineDance is the largest music-dance paired dataset with the most dance genres. Additionally, to address monotonous and unnatural hand movements existing in previous methods, we propose a full-body dance generation network, which utilizes  the diverse generation capabilities of the diffusion model to solve monotonous problems, and use expert nets to solve unreal problems.
-            To further enhance the genre-matching and long-term stability of generated dances, we propose a Genre$\&$Coherent aware Retrieval Module. Besides, we propose a novel metric named Genre Matching Score to evaluate the genre-matching degree between dance and music. Quantitative and qualitative experiments demonstrate the quality of FineDance, and the state-of-the-art performance of FineNet.
+            We propose Lodge, a network capable of generating extremely long dance sequences conditioned on given music. We design Lodge as a two-stage coarse to fine diffusion architecture, and propose the characteristic dance primitives that possess significant expressiveness as intermediate representations between two diffusion models. The first stage is global diffusion, which focuses on comprehending the coarse-level music-dance correlation and production characteristic dance primitives. In contrast, the second-stage is the local diffusion, which parallelly generates detailed motion sequences under the guidance of the dance primitives and choreographic rules. In addition, we propose a Foot Refine Block to optimize the contact between the feet and the ground, enhancing the physical realism of the motion. Our approach can parallelly generate dance sequences of extremely long length, striking a balance between global choreographic patterns and local motion quality and expressiveness. Extensive experiments validate the efficacy of our method.
           </p>
         </div>
       </div>
@@ -271,7 +268,7 @@
       </h2>
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <source src="finedance\teaser\generated.mp4"
+        <source src="lodge\Lodge_video.mp4"
         type="video/mp4">
       </video>
     </div>
@@ -282,7 +279,7 @@
 
 
 <!-- Image carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <h2 class="title is-3">
       Gallary
@@ -290,19 +287,17 @@
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <!-- Your image here -->
         <img src="finedance\teaser\dataset_show.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           FineDance dataset show.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
         <img src="finedance\teaser\Multi-gen.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Generated multi-genre dances.
         </h2>
-      </div>
+      </div> -->
       <!-- <div class="item"> -->
         <!-- Your image here -->
         <!-- <img src="finedance\teaser\methods_results.jpeg" alt="MY ALT TEXT"/>
@@ -310,22 +305,19 @@
          Compare with sotas.
        </h2>
      </div> -->
-     <div class="item">
-      <!-- Your image here -->
+     <!-- <div class="item">
       <img src="finedance\teaser\MM1.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Generated diverse dances form the same music.
       </h2>
     </div>
     <div class="item">
-      <!-- Your image here -->
       <img src="finedance\teaser\MM2.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Generated diverse dances form the same music.
       </h2>
     </div>
     <div class="item">
-      <!-- Your image here -->
       <img src="finedance\teaser\MM3.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Generated diverse dances form the same music.
@@ -334,7 +326,7 @@
   </div>
 </div>
 </div>
-</section>
+</section> -->
 <!-- End image carousel -->
 
 
@@ -408,7 +400,7 @@ End paper poster -->
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>@InProceedings{Li_2023_ICCV,
@@ -420,7 +412,7 @@ End paper poster -->
     pages     = {10234-10243}
 }</code></pre>
     </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
 
 
