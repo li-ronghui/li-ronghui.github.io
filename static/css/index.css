@@ -27,6 +27,32 @@ body {
   font-family: 'Google Sans', sans-serif;
 }
 
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+}
+
+
+.multivideo-container {
+  display: flex;
+  flex-wrap: wrap; /* 允许视频容器在需要时换行 */
+  justify-content: space-between; /* 在两列之间平均分布 */
+}
+
+.multivideo-container video {
+  width: 48%; /* 每列视频宽度占 48% */
+  margin-bottom: 20px; /* 视频之间留下一些间距 */
+}
+
+
+.col-gallery {
+  float: left;
+  width: 48%;
+  box-sizing: border-box;
+  padding: 2px;
+  position: relative;
+}
 
 
 .publication-title {
