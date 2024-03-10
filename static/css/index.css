@@ -56,13 +56,6 @@ video {
   margin-bottom: 20px; /* 视频之间留下一些间距 */
 }
 
-@media screen and (max-width: 768px) {
-  /* 在小屏幕下，每列视频宽度占 100%，即一列显示 */
-  .multivideo-container video {
-    width: 100%;
-  }
-}
-
 
 .publication-title {
 }
