@@ -56,7 +56,7 @@ video {
   margin-bottom: 20px; /* 视频之间留下一些间距 */
 }
 
-.video-row {
+/* .video-row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -64,7 +64,15 @@ video {
 }
 
 .video-row video {
-  width: 20%; /* 每列视频宽度占 48% */
+  width: 20%; 
+} */
+
+.col-gallery {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  padding: 2px;
+  position: relative;
 }
 
 
