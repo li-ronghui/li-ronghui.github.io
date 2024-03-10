@@ -56,6 +56,13 @@ video {
   margin-bottom: 20px; /* 视频之间留下一些间距 */
 }
 
+.video-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 
 .publication-title {
 }
