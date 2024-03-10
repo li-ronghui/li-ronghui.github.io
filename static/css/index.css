@@ -20,11 +20,16 @@ body {
 
 .teaser .hero-body {
   padding-top: 0;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
 }
 
 .teaser {
   font-family: 'Google Sans', sans-serif;
+}
+
+.image-caption {
+  text-align: center;
+  font-style: italic;
 }
 
 
