@@ -37,6 +37,27 @@
   href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
+  <style>
+    /* CSS 样式放在这里 */
+    .video-container {
+      display: flex;
+      flex-wrap: wrap; /* 允许视频容器在需要时换行 */
+      justify-content: space-between; /* 在两列之间平均分布 */
+    }
+
+    .video-container video {
+      width: 48%; /* 每列视频宽度占 48% */
+      margin-bottom: 20px; /* 视频之间留下一些间距 */
+    }
+
+    @media screen and (max-width: 768px) {
+      /* 在小屏幕下，每列视频宽度占 100%，即一列显示 */
+      .video-container video {
+        width: 100%;
+      }
+    }
+  </style>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
@@ -284,7 +305,7 @@
       <h2 class="title is-3">
         Results
       </h2>
-      <div class="multivideo-container"></div>
+      <div class="video-container"></div>
         <video poster="" id="tree1" autoplay controls muted loop height="100%">
           <!-- Your video here -->
           <source src="lodge\results\204.mp4"
