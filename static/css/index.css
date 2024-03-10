@@ -63,6 +63,10 @@ video {
   flex-wrap: wrap;
 }
 
+.video-row video {
+  width: 20%; /* 每列视频宽度占 48% */
+}
+
 
 .publication-title {
 }
