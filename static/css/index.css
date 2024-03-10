@@ -34,6 +34,17 @@ body {
 }
 
 
+.multivideo-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* 添加视频之间的上边距 */
+}
+
+video {
+  width: 100%; /* 视频宽度占满容器 */
+}
+
+
 .publication-title {
 }
 
