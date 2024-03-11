@@ -250,8 +250,8 @@ a:hover:after{
 }
 .marquee-wrapper .marquee-block{
   --total-marquee-items:5;
-  height: 600px;
-  width: calc(800px * (var(--total-marquee-items)));
+  height: 400px;
+  width: calc(600px * (var(--total-marquee-items)));
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
@@ -289,7 +289,7 @@ a:hover:after{
   animation: marqueeRight 25s linear infinite;
 }
 .marquee-item{
-  width: 800px;
+  width: 400px;
   height: 600px;
   display: inline-block;
   margin: 0 10px;
