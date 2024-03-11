@@ -251,7 +251,7 @@ a:hover:after{
 .marquee-wrapper .marquee-block{
   --total-marquee-items:5;
   height: 600px;
-  width: calc(588px * (var(--total-marquee-items)));
+  width: calc(800px * (var(--total-marquee-items)));
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
