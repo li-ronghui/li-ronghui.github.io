@@ -290,13 +290,13 @@ a:hover:after{
 }
 .marquee-item{
   width: 600px;
-  height: 400px;
+  height: 450px;
   display: inline-block;
   margin: 0 10px;
   float: left;
   transition: all .3s ease-out;
   background:#ececec;
-  border-bottom: orange 5px solid;
+  /* border-bottom: orange 5px solid; */
   margin-top: 10px;
 }
 @keyframes marqueeLeft{
