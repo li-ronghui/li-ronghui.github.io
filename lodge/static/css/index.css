@@ -289,8 +289,8 @@ a:hover:after{
   animation: marqueeRight 25s linear infinite;
 }
 .marquee-item{
-  width: 400px;
-  height: 600px;
+  width: 600px;
+  height: 400px;
   display: inline-block;
   margin: 0 10px;
   float: left;
