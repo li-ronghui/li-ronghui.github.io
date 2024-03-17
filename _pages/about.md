@@ -115,7 +115,7 @@ ________________________________________________________________________________
                     <br>
                     <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
                     <br>
-                    [<a> https://github.com/li-ronghui</a>]
+                    [<a href="https://github.com/li-ronghui">Paper</a>]
                     </td>
                 </tr>
                <tr>
