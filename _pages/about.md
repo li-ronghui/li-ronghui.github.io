@@ -57,7 +57,7 @@ ________________________________________________________________________________
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition
  (CVPR 2024)</em>
                     <br>
-                    [<a> Paper and Code Coming soon. </a>]
+                    [<a href="https://li-ronghui.github.io/finedance">Project</a>][<a href="https://li-ronghui.github.io/finedance">Paper</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
                     </td>
                 </tr>
                 <tr>
@@ -115,7 +115,7 @@ ________________________________________________________________________________
                     <br>
                     <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
                     <br>
-                    [<a> Paper</a>][<a href="https://github.com/li-ronghui">Code coming soon!</a>]
+                    [<a> https://github.com/li-ronghui</a>]
                     </td>
                 </tr>
                <tr>
@@ -129,7 +129,7 @@ ________________________________________________________________________________
                     <br>
                     <em>Association for the Advance of Artificial Intelligence (AAAI 2024)</em>
                     <br>
-                   [<a href="https://arxiv.org/abs/2312.15900">Paper</a>][<a href="https://github.com/li-ronghui">Code coming soon!</a>]
+                   [<a href="https://arxiv.org/abs/2312.15900">Paper</a>]
                     </td>
                </tr>
                     </tbody>
