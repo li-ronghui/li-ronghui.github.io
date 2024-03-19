@@ -57,7 +57,7 @@ ________________________________________________________________________________
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition
  (CVPR 2024)</em>
                     <br>
-                    [<a href="https://li-ronghui.github.io/finedance">Project</a>][<a href="https://li-ronghui.github.io/finedance">Paper</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
+                    [<a href="https://li-ronghui.github.io/lodge">Project</a>][<a href="http://arxiv.org/abs/2403.10518">Paper</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
                     </td>
                 </tr>
                 <tr>
