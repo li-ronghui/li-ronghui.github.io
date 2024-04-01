@@ -149,7 +149,7 @@ ________________________________________________________________________________
                </tr>
                <tr>
                     <td width="40%">
-                        <img width="320" src="../static/videos/groupdancing.mp4" border="0">
+                        <img width="320" src="../images/MambaTalk.png" border="0">
                             </td>
                     <td>
                             <b>MambaTalk: Efficient Holistic Gesture Synthesis with Selective State Space Models</b>
