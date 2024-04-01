@@ -56,10 +56,23 @@ ________________________________________________________________________________
                     <br>
                     <strong>Ronghui Li</strong>, Yuxiang Zhang, Yachao Zhang, Yachao Zhang, Hongwen Zhang, Jie Guo, Yan Zhang, Yebin Liu, Xiu Li.
                     <br>
-                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition
- (CVPR 2024)</em>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2024)</em>
                     <br>
                     [<a href="https://li-ronghui.github.io/lodge">Project</a>][<a href="http://arxiv.org/abs/2403.10518">Paper</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/FineDance.gif" border="0">
+                            </td>
+                    <td>
+                            <b>FineDance: A Fine-grained Choreography Dataset for 3D Full Body Dance Generation</b>
+                    <br>
+                    <strong>Ronghui Li</strong>, Junfan Zhao,  Yachao Zhang, Mingyang Su, Zeping Ren, Han Zhang, Yansong Tang, Xiu Li.
+                    <br>
+                    <em>IEEE/CVF Conference on International Conference on Computer Vision (ICCV 2023)</em>
+                    <br>
+                    [<a href="https://li-ronghui.github.io/finedance">Project</a>][<a href="https://arxiv.org/abs/2312.15900">Paper</a>][<a href="https://github.com/li-ronghui/FineDance">Code</a>]
                     </td>
                 </tr>
                 <tr>
@@ -79,6 +92,20 @@ ________________________________________________________________________________
                 </tr>
                 <tr>
                     <td width="40%">
+                        <img width="320" src="../static/videos/groupdancing.mp4" border="0">
+                            </td>
+                    <td>
+                            <b>Harmonious Group Choreography with Trajectory-Controllable Diffusion</b>
+                    <br>
+                    Yuqin Dai, Wanlu Zhu, <strong>Ronghui Li</strong>, Zeping Ren, Xiangzheng Zhou, Xiu Li, Jun Li1, Jian Yan.
+                    <br>
+                    <em>arXiv preprint arXiv:2403.06189 (arXiv)</em>
+                    <br>
+                    [<a href="https://wanluzhu.github.io/TCDiffusion/">Project</a>][<a href="https://arxiv.org/abs/2403.06189">Paper</a>][<a href="https://github.com/Da1yuqin/TCDiff">Code Comming</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
                         <img width="320" src="../images/Text2Avatar.jpg" border="0">
                             </td>
                     <td>
@@ -90,20 +117,6 @@ ________________________________________________________________________________
  (ICASSP 2024)</em>
                     <br>
                     [<a href="https://browse.arxiv.org/abs/2401.00711">Paper</a>]
-                    </td>
-                </tr>
-                <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/FineDance.gif" border="0">
-                            </td>
-                    <td>
-                            <b>FineDance: A Fine-grained Choreography Dataset for 3D Full Body Dance Generation</b>
-                    <br>
-                    <strong>Ronghui Li</strong>, Junfan Zhao,  Yachao Zhang, Mingyang Su, Zeping Ren, Han Zhang, Yansong Tang, Xiu Li.
-                    <br>
-                    <em>IEEE/CVF Conference on International Conference on Computer Vision (ICCV 2023)</em>
-                    <br>
-                    [<a href="https://li-ronghui.github.io/finedance">Project</a>][<a href="https://arxiv.org/abs/2312.15900">Paper</a>][<a href="https://github.com/li-ronghui/FineDance">Code</a>]
                     </td>
                 </tr>
                 <tr>
@@ -134,6 +147,20 @@ ________________________________________________________________________________
                    [<a href="https://arxiv.org/abs/2312.15900">Paper</a>]
                     </td>
                </tr>
+               <tr>
+                    <td width="40%">
+                        <img width="320" src="../static/videos/groupdancing.mp4" border="0">
+                            </td>
+                    <td>
+                            <b>MambaTalk: Efficient Holistic Gesture Synthesis with Selective State Space Models</b>
+                    <br>
+                    Zunnan Xu, Yukang Lin, Haonan Han, Sicheng Yang, <strong>Ronghui Li</strong>, Yachao Zhang, Xiu Li.
+                    <br>
+                    <em>arXiv preprint arXiv:2403.09471 (arXiv)</em>
+                    <br>
+                    [<a href="https://arxiv.org/abs/2403.09471">Paper</a>]
+                    </td>
+                </tr>
                     </tbody>
            </table>
 </font>
