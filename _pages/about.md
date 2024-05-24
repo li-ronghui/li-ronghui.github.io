@@ -72,7 +72,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE/CVF Conference on International Conference on Computer Vision (ICCV 2023)</em>
                     <br>
-                    [<a href="https://li-ronghui.github.io/finedance">Project</a>][<a href="https://arxiv.org/abs/2312.15900">Paper</a>][<a href="https://github.com/li-ronghui/FineDance">Code</a>]
+                    [<a href="https://li-ronghui.github.io/finedance">Project</a>][<a href="https://arxiv.org/abs/2212.03741">Paper</a>][<a href="https://github.com/li-ronghui/FineDance">Code</a>]
                     </td>
                 </tr>
                 <tr>
