@@ -9,7 +9,10 @@ redirect_from:
 ---
 
 I am currently a second-year Ph.D. student at Shenzhen International Graduate School, Tsinghua University supervised by Prof. Xiu Li. 
+<<<<<<< HEAD
 <!-- Prior to that, I received my Master from Northeastern University (China) under the supervision of Assoc. Prof. Lu Meng.  -->
+=======
+>>>>>>> 6994eba24a7c0c5067916e9b334457fdcf8a0f41
 I'm passion about human-centric topics, including <strong>human motion and interaction synthesis, motion modelling, 3D vison, and Generative Model</strong>. 
 
 
