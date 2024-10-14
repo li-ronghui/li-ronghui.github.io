@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="Lodge++: Generating High-quality and Long Dance with Robust Choreography"/>
+  <meta property="og:description" content="Lodge++: Generating High-quality and Long Dance with Robust Choreography"/>
+  <meta property="og:url" content="https://li-ronghui.github.io/lodge"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="lodge/static/images/framework.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="lodge/static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title> Lodge </title>
+  <link rel="icon" type="image/x-icon" href="lodge/static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="lodge/static/css/bulma.min.css">
+  <link rel="stylesheet" href="lodge/static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="lodge/static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="lodge/static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css">
+  <link rel="stylesheet" href="lodge/static/css/index.css">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600' rel='stylesheet' type='text/css'> -->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="lodge/static/js/fontawesome.all.min.js"></script>
+  <script src="lodge/static/js/bulma-carousel.min.js"></script>
+  <script src="lodge/static/js/bulma-slider.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+	    tex2jax: {
+	        inlineMath: [['$','$'], ['\\(','\\)']],
+	        processEscapes: true
+	    }
+	});
+    </script>
+
+  <script src="lodge/static/js/index.js"></script>
+  
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h2 class="title is-3">CVPR2024</h2>
+            <h1 class="xtitle is-1 publication-title">
+              Lodge: A Coarse to Fine Diffusion Network for Long Dance Generation </br>
+              Guided by the Characteristic Dance Primitives
+            </h1>
+          </br>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://li-ronghui.github.io/" target="_blank">Ronghui Li</a><sup><sup>1</sup>
+              </span>
+              <span class="author-block">
+                <a href="https://zhangyux15.github.io/" target="_blank">Yuxiang Zhang</a><sup><sup>1</sup>
+              </span>
+              <span class="author-block">
+                <a  href="https://yachao-zhang.github.io/" target="_blank">Yachao Zhang</a><sup>1 <br>
+              </span>
+              <span class="author-block">
+                <a href="https://zhanghongwen.cn/" target="_blank">Hongwen Zhang</a><sup>4
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?hl=en&user=9QLVTUYAAAAJ"  target="_blank">Jie Guo</a><sup>2
+              </span>
+              <span class="author-block">
+                <a  href="https://yz-cnsdqz.github.io/" target="_blank">Yan Zhang</a><sup>3
+              </span>
+              <span class="author-block">
+                <a href="https://www.liuyebin.com/" target="_blank">Yebin Liu</a><sup>1
+              </span>
+              <span class="author-block">
+                <a href="https://thusigsiclab.github.io/thu.github.io/" target="_blank">Xiu Li</a><sup>1
+              </span>
+            </div>
+            </br>
+            <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                  <sup>1</span>Tsinghua University, 
+                  <sup>2</sup>Peng Cheng Laboratory, <br>
+                  <!-- <sup>3</sup>ETH Zurich,  -->
+                  <sup>3</sup>Meshcapade ,
+                  <sup>4</sup>Beijing Normal University 
+                </span>
+
+          
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                 <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="http://arxiv.org/abs/2403.10518" target="_blank"
+                  class="external-link ">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/li-ronghui/LODGE" target="_blank"
+                  class="external-link ">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+                  <p>
+                    This work was done when Yan Zhang at ETH Zurich.
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose Lodge, a network capable of generating extremely long dance sequences conditioned on given music. We design Lodge as a two-stage coarse to fine diffusion architecture, and propose the characteristic dance primitives that possess significant expressiveness as intermediate representations between two diffusion models. The first stage is global diffusion, which focuses on comprehending the coarse-level music-dance correlation and production characteristic dance primitives. In contrast, the second-stage is the local diffusion, which parallelly generates detailed motion sequences under the guidance of the dance primitives and choreographic rules. In addition, we propose a Foot Refine Block to optimize the contact between the feet and the ground, enhancing the physical realism of the motion. Our approach can parallelly generate dance sequences of extremely long length, striking a balance between global choreographic patterns and local motion quality and expressiveness. Extensive experiments validate the efficacy of our method.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Paper abstract -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-2">Method</h2>
+        <div class="content has-text-justified">
+          <img src="lodge/Method.jpg" />
+          <figcaption class="image-caption">Fig.1 The overview of Lodge. 'LD' means Local Diffusion. </figcaption>
+      </div>
+      <div class="content has-text-justified">
+        <p>
+          In order to simultaneously consider both the global choreographic rules and the local dance details, we design a coarse to fine diffusion network with twostages. The first stage is the global diffusion, which uses the global music feature to learn the choreography patterns and produce characteristic danceprimitives. The dance primitives are expressive key motions with a higher motion kinematic energy. The second stage is the Local Diffusion (LD), which focuses onthe quality of short-duration dance generation and can be run in parallel to improve the generation efficiency.
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Results</h2>
+      <div class="content has-text-justified">
+        <p>
+          As shown in the following videos (Please unmute for music), Lodge can generates long dances from given music.
+      </div>
+      <!---######################################-->
+      <div class="marquee-item">
+        <!-- <video onloadstart="this.playbackRate = 1;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%"> -->
+        <video poster="" id="tree1" autoplay controls muted loop>
+          <source src="lodge\results\204.mp4"
+            type="video/mp4">
+          </video>
+        <!-- <p class="text-white"> <c>Stormtrooper</c> in the <c>gym</c> </p> -->
+      </div>
+      <div class="marquee-item">
+        <video poster="" id="tree1" autoplay controls muted loop>
+          <source src="lodge\results\098_2_res1_hint100.mp4"
+            type="video/mp4">
+        </video>
+        <!-- <p class="text-white"> The <c>girl</c>, <c>Simple background</c> </p> -->
+      </div>
+      <!---######################################-->
+      <div class="marquee-item">
+        <video poster="" id="tree1" autoplay controls muted loop>
+          <source src="lodge\results\063_res1_hint50.mp4"
+            type="video/mp4">
+          </video>
+        <!-- <p class="text-white"> <c>Astronaut</c> on <c>mountain</c> </p> -->
+      </div>
+      <div class="marquee-item">
+        <video poster="" id="tree1" autoplay controls muted loop>
+          <source src="lodge\results\193_res2_hint100.mp4"
+            type="video/mp4">
+          </video>
+        <!-- <p class="text-white"> <c>Iron man</c> in <c>street</c></p> -->
+      </div>
+      <!---######################################-->
+      <div class="marquee-item">
+        <video poster="" id="tree1" autoplay controls muted loop>
+          <source src="lodge\results\065_2.mp4"
+            type="video/mp4">
+          </video>
+        <!-- <p class="text-white"> A <c>astronaut</c>, <c>brown background.</c> </p> -->
+      </div>
+      <div class="marquee-item">
+        <video poster="" id="tree1" autoplay controls muted loop>
+          <source src="lodge\results\065.mp4"
+            type="video/mp4">
+          </video>
+        <!-- <p class="text-white">A <c>robot</c> is dancing in <c>Sahara desert</c> </p> -->
+      </div>
+      <!---######################################-->
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<!-- Demo video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">
+        Demo Video
+      </h2>
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="lodge\Lodge_video.mp4"
+        type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+<!-- End Demo video -->
+
+
+<!-- Image carousel
+<section class="section hero">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Attribute Editing Using Stable Diffusion</h2>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/16_sq_eat_01_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white" style="font-size: 18px;" > Squirrel, Carrot ➜ <c> White mouse, Peanut </c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/16_sq_eat_02_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white" style="font-size: 16px;" >Squirrel, Carrot ➜ <c> Rabbit, Eggplant</c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/16_sq_eat_03_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white" style="font-size: 16px;" > Squirrel, Carrot ➜ <c> Robot mouse, Screwdriver</c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/14_car_grass_tiger_corgin_01_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white"> Cat ➜ <c> A yellow cute leopard </c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/14_car_grass_tiger_corgin_02_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white"> Cat ➜ <c> Black Cat, Grass... </c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/14_car_grass_tiger_corgin_03_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white">Cat ➜ <c>Red Tiger</c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/13_bear_tiger_leopard_lion_01_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white">Bear ➜ <c>A Red Tiger</c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/13_bear_tiger_leopard_lion_02_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white">Bear ➜ <c> A yellow leopard </c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/13_bear_tiger_leopard_lion_03_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white">Bear ➜ <c>A yellow lion </c> </p>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Shape-Aware Editing Using Tune-A-Video Checkpoint<sup>*,3</sup></h2>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/17_car_posche_01_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white">Cat ➜ <c>Posche Car<sup>*</sup></c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/18_swan_01_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white">Swan ➜ <c>White Duck<sup>*</sup></c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/18_swan_02_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white">Swan ➜ <c>Pink flamingo<sup>*</sup></c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/19_man_wonder_02_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white" style="font-size: 18px;">A man ➜ <c>A Wonder Woman, With cowboy hat<sup>*</sup></c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/19_man_wonder_01_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white">A man ➜ <c>A Batman<sup>*</sup></c> </p>
+      </div>
+      <div class="marquee-item">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/19_man_wonder_03_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <p class="text-white">A man ➜ <c>A Spider-Man<sup>*</sup></c> </p>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<section class="section hero">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3"> Comparsions </h2>
+      <div class="marquee-item s-larger">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/20_car_posche_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+        <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tune-A-Video&nbsp;&nbsp;&nbsp;&nbsp;Frame Null-Inv&nbsp;&nbsp;&nbsp;&nbsp;Frame SDEdit&nbsp;&nbsp;&nbsp;&nbsp;NLA + Null-Inv     </d>
+        <p class="text-white">Cat ➜ <c>Posche Car<sup>*</sup></c> </p>
+      </div>
+      <div class="marquee-item s-larger">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/21_car_watercolor_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+          <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tune-A-Video&nbsp;&nbsp;&nbsp;&nbsp;Frame Null-Inv&nbsp;&nbsp;&nbsp;&nbsp;Frame SDEdit&nbsp;&nbsp;&nbsp;&nbsp;NLA + Null-Inv     </d>
+        <p class="text-white"><c> + Watercolor Painting </c> </p>
+      </div>
+      <div class="marquee-item s-larger">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/22_swan_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+          <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tune-A-Video&nbsp;&nbsp;&nbsp;&nbsp;Frame Null-Inv&nbsp;&nbsp;&nbsp;&nbsp;Frame SDEdit&nbsp;&nbsp;&nbsp;&nbsp;NLA + Null-Inv     </d>
+        <p class="text-white">Swan ➜ <c> Swarovski Swan </c> </p>
+      </div>
+      
+      <div class="marquee-item s-larger">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/24_flamingo_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+          <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tune-A-Video&nbsp;&nbsp;&nbsp;&nbsp;Frame Null-Inv&nbsp;&nbsp;&nbsp;&nbsp;Frame SDEdit&nbsp;&nbsp;&nbsp;&nbsp;NLA + Null-Inv     </d>
+        <p class="text-white">Swan ➜ <c>Pink flamingo<sup>*</sup></c> </p>
+      </div>
+      <div class="marquee-item s-larger-4">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/25_surf_unkio_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+          <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tune-A-Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frame Null-Inv&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frame SDEdit </d>
+        <p class="text-white"> <c> + Ukiyo-e Style </c> </p>
+      </div>
+     
+      <div class="marquee-item s-larger-4">
+        <video onloadstart="this.playbackRate = 0.75;" poster="" id="video1" class="lozad" autoplay muted loop playsinline height="100%">
+          <source src="lodge/static/videos/27_train_shinkai_concat_result.mp4"
+            type="video/mp4">
+          sorry, your browser does not support HTML5 Videos.
+          </video>
+          <d>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ours&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tune-A-Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frame Null-Inv&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frame SDEdit </d>
+        <p class="text-white"> <c> + Makoto Shinkai Style </c> </p>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+ -->
+
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{li2024lodge,
+        title={Lodge: A Coarse to Fine Diffusion Network for Long Dance Generation Guided by the Characteristic Dance Primitives},
+        author={Li, Ronghui and Zhang, Yuxiang and Zhang, Yachao and Zhang, Hongwen and Guo, Jie and Zhang, Yan and Liu, Yebin and Li, Xiu},
+        booktitle={IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)},
+        year={2024},
+    }</code></pre>
+
+    <pre><code></code>@inproceedings{li2023finedance,
+      title={FineDance: A Fine-grained Choreography Dataset for 3D Full Body Dance Generation},
+      author={Li, Ronghui and Zhao, Junfan and Zhang, Yachao and Su, Mingyang and Ren, Zeping and Zhang, Han and Tang, Yansong and Li, Xiu},
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision  (ICCV)},
+      pages={10234--10243},
+      year={2023}
+    }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+<!-- <section class="section">
+  <div class="hero-body">
+    <div class="container is-max-desktop content">
+    <h2 class="title">Explaination</h2>
+    <small>1. For better visualization, we only show the edited word in this page. Please check our paper and code for the whole source prompt. </small> <br/>
+    <small>2. Most of the results are directly edited from <a href="https://github.com/vinthony/deep-blind-watermark-removal">Stable diffusion v1.4</a>. We use one-shot video diffusion model (<a href="https://tuneavideo.github.io/">Tune-A-Video</a>) checkpoints for shape-aware editing, the results are marked as *. </small> <br/>
+    
+    <small>3. Our method do not require to train on the Tune-A-Video Model. </small>
+    </div>
+  </section> -->
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/vinthony/project-page-template">modification version</a> of <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> from <a href="https://github.com/vinthony">vinthony</a>.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+<!-- End of Statcounter Code -->
+
+  </body>
+  </html>
