@@ -57,7 +57,7 @@ ________________________________________________________________________________
                     <br>
                     <strong>Ronghui Li</strong>, Hongwen Zhang, Yachao Zhang, Yuxiang Zhang,  Youliang Zhang,  Jie Guo, Yan Zhang, Xiu Li, Yebin Liu.
                     <br>
-                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2024)</em>
+                    <em>arxiv</em>
                     <br>
                     [<a href="https://li-ronghui.github.io/lodgepp">Project</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
                     </td>
