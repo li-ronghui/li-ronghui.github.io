@@ -59,7 +59,7 @@ ________________________________________________________________________________
                     <br>
                     <em>arxiv</em>
                     <br>
-                    [<a href="https://li-ronghui.github.io/lodgepp">Project</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
+                    [<a href="https://li-ronghui.github.io/lodgepp">Project</a>][<a href="https://arxiv.org/pdf/2410.20389">Paper</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
                     </td>
                 </tr>
                 <tr>
