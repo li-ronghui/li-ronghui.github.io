@@ -22,7 +22,9 @@ ________________________________________________________________________________
 </h3>
 <div class="mini">
   <ul>
-  <li> <strong>[Dec 2024]</strong> One first-author paper about long dance generation accepted by CVPR 2024!</li>
+  <li> <strong>[Dec 2024]</strong> One paper about group dance generation accepted by AAAI!</li>
+  <li> <strong>[Sep 2024]</strong> One paper about speech driven motion generation accepted by NeurIPS!</li>
+  <li> <strong>[Feb 2024]</strong> One first-author paper about long dance generation accepted by CVPR 2024!</li>
   <li> <strong>[Dec 2023]</strong> One first-author paper about controllable dance generation accepted by ICASSP 2024!</li>
   <li> <strong>[Dec 2023]</strong> Two papers about 3D object grounding and gestures generation are accepted by AAAI 2024!</li>
   <li> <strong>[Jul 2023]</strong> One first-author paper about music driven dance generation accepted by ICCV 2023!</li>
