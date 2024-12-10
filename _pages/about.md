@@ -117,7 +117,7 @@ ________________________________________________________________________________
                     <br>
                     <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
                     <br>
-                    [<a href="https://arxiv.org/abs/2403.09471">Paper</a>]
+                    [<a href="https://kkakkkka.github.io/MambaTalk/">Project</a>][<a href="https://arxiv.org/abs/2403.09471">Paper</a>]
                     </td>
                 </tr>
                 <tr>
