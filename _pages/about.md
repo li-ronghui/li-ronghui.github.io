@@ -94,6 +94,34 @@ ________________________________________________________________________________
                 </tr>
                 <tr>
                     <td width="40%">
+                        <img width="320" src="../images/groupdancing.gif" border="0">
+                            </td>
+                    <td>
+                            <b>Harmonious Group Choreography with Trajectory-Controllable Diffusion</b>
+                    <br>
+                    Yuqin Dai, Wanlu Zhu, <strong>Ronghui Li</strong>, Zeping Ren, Xiangzheng Zhou, Xiu Li, Jun Li1, Jian Yang.
+                    <br>
+                    <em>Association for the Advance of Artificial Intelligence (AAAI 2025)</em>
+                    <br>
+                    [<a href="https://wanluzhu.github.io/TCDiffusion/">Project</a>][<a href="https://arxiv.org/abs/2403.06189">Paper</a>][<a href="https://github.com/Da1yuqin/TCDiff">Code Comming</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/MambaTalk.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>MambaTalk: Efficient Holistic Gesture Synthesis with Selective State Space Models</b>
+                    <br>
+                    Zunnan Xu, Yukang Lin, Haonan Han, Sicheng Yang, <strong>Ronghui Li</strong>, Yachao Zhang, Xiu Li.
+                    <br>
+                    <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
+                    <br>
+                    [<a href="https://arxiv.org/abs/2403.09471">Paper</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
                         <img width="320" src="../images/DanceControl.jpg" border="0">
                             </td>
                     <td>
@@ -105,20 +133,6 @@ ________________________________________________________________________________
  (ICASSP 2024)</em>
                     <br>
                     [<a href="https://arxiv.org/abs/2401.01382">Paper</a>]
-                    </td>
-                </tr>
-                <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/groupdancing.gif" border="0">
-                            </td>
-                    <td>
-                            <b>Harmonious Group Choreography with Trajectory-Controllable Diffusion</b>
-                    <br>
-                    Yuqin Dai, Wanlu Zhu, <strong>Ronghui Li</strong>, Zeping Ren, Xiangzheng Zhou, Xiu Li, Jun Li1, Jian Yan.
-                    <br>
-                    <em>arXiv preprint arXiv:2403.06189 (arXiv)</em>
-                    <br>
-                    [<a href="https://wanluzhu.github.io/TCDiffusion/">Project</a>][<a href="https://arxiv.org/abs/2403.06189">Paper</a>][<a href="https://github.com/Da1yuqin/TCDiff">Code Comming</a>]
                     </td>
                 </tr>
                 <tr>
@@ -164,20 +178,6 @@ ________________________________________________________________________________
                    [<a href="https://arxiv.org/abs/2312.15900">Paper</a>]
                     </td>
                </tr>
-               <tr>
-                    <td width="40%">
-                        <img width="320" src="../images/MambaTalk.jpg" border="0">
-                            </td>
-                    <td>
-                            <b>MambaTalk: Efficient Holistic Gesture Synthesis with Selective State Space Models</b>
-                    <br>
-                    Zunnan Xu, Yukang Lin, Haonan Han, Sicheng Yang, <strong>Ronghui Li</strong>, Yachao Zhang, Xiu Li.
-                    <br>
-                    <em>arXiv preprint arXiv:2403.09471 (arXiv)</em>
-                    <br>
-                    [<a href="https://arxiv.org/abs/2403.09471">Paper</a>]
-                    </td>
-                </tr>
                     </tbody>
            </table>
 </font>
