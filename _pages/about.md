@@ -9,10 +9,10 @@ redirect_from:
 ---
 
 
-I am currently a third-year Ph.D. candidate at Tsinghua University supervised by Prof. [Xiu Li](https://thusigsiclab.github.io/thu.github.io/). 
-Currently, I am thrilled to be a visiting student at MMLAB@NTU, under the guidance of Prof. [Ziwei Liu](https://liuziwei7.github.io/index.html). 
-Previously, I was fortunate to conduct research on digital humans under the guidance of Prof. [Yebin Liu](http://www.liuyebin.com/).
-I'm passion about <strong>human motion and interaction synthesis, motion modelling, Generative Model, and embodied AI</strong>. 
+I am currently a third-year Ph.D. candidate at Tsinghua University, supervised by Prof. [Xiu Li](https://thusigsiclab.github.io/thu.github.io/).
+I was fortunate to be a visiting student at MMLAB@NTU, where I worked with Prof. [Ziwei Liu](https://liuziwei7.github.io/index.html) on topics related to generative modeling and human motion.
+Earlier in my Ph.D. journey, I had the opportunity to explore digital human modeling under the guidance of Prof. [Yebin Liu](http://www.liuyebin.com/).
+My research interests lie in <strong>human motion and interaction synthesis, motion modeling, generative models, and embodied AI</strong>.
 
 
 
