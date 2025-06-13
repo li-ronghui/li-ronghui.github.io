@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/95f2595f-1315-4b29-b297-8a7856f5163a)---
 permalink: /
 title: "About me"
 excerpt: "About me"
@@ -20,7 +20,9 @@ ________________________________________________________________________________
   <a name="news"></a> 🆕News
 </h3>
 <div class="mini">
-  <ul>
+  <ul> <strong>[Jun 2025]</strong> Recognized as <strong>outstanding</strong> reviewer at CVPR 2025!</li>
+  <ul> <strong>[May 2025]</strong> Our team was awarded a <strong>Gold Medal</strong> at the International Exhibition of Inventions Geneva!</li>  
+  <li> <strong>[Feb 2025]</strong> One paper about Text-to-Motion Generation with GPT-4Vision Reward is accepted by CVPR 2025!</li>
   <li> <strong>[Dec 2024]</strong> One paper about group dance generation accepted by AAAI!</li>
   <li> <strong>[Sep 2024]</strong> One paper about speech driven motion generation accepted by NeurIPS!</li>
   <li> <strong>[Feb 2024]</strong> One first-author paper about long dance generation accepted by CVPR 2024!</li>
