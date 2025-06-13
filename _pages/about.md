@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ronghui Li(李镕辉)"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
