@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Lodge</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="lodge/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+	    tex2jax: {
+	        inlineMath: [['$','$'], ['\\(','\\)']],
+	        processEscapes: true
+	    }
+	});
+    </script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="xtitle is-1 publication-title">Lodge: A Coarse to Fine Diffusion Network for Long Dance Generation Guided by the Characteristic Dance Primitives</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <!-- <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Ronghui Li</a><sup>*</sup></span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Junfan Zhao</a><sup>*</sup></span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yachao Zhang</a></sup></span>
+                    </span  class="author-block">
+                      <a  target="_blank">Mingyang Su</a></sup></span>
+                      </span  class="author-block">
+                        <a  target="_blank">Zeping Ren</a></sup></span>
+                        </span  class="author-block">
+                          <a  target="_blank">Han Zhang</a></sup></span>
+                          </span  class="author-block">
+                            <a  target="_blank">Yansong Tang</a></sup></span>
+                            </span  class="author-block">
+                      <a  target="_blank">Xiu Li</a><sup> -->
+                        <span class="author-block">
+                          <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Ronghui Li</a><sup><sup>1</sup>
+                        </span>
+                        <span class="author-block">
+                          <a href="https://zhangyux15.github.io/" target="_blank">Yuxiang Zhang</a><sup><sup>1</sup>
+                        </span>
+                        <span class="author-block">
+                          <a  href="https://yachao-zhang.github.io/" target="_blank">Yachao Zhang</a><sup>1 <br>
+                        </span>
+                        <span class="author-block">
+                          <a href="https://zhanghongwen.cn/" target="_blank">Hongwen Zhang</a><sup>5
+                        </span>
+                        <span class="author-block">
+                          <a   target="_blank">Jie Guo</a><sup>2
+                        </span>
+                        <span class="author-block">
+                          <a  href="https://yz-cnsdqz.github.io/" target="_blank">Yan Zhang</a><sup>3,4
+                        </span>
+                        <span class="author-block">
+                          <a href="https://www.liuyebin.com/" target="_blank">Yebin Liu</a><sup>1
+                        </span>
+                        <span class="author-block">
+                          <a href="https://thusigsiclab.github.io/thu.github.io/" target="_blank">Xiu Li</a><sup>1
+                        </span>
+            </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <sup>1</span>Tsinghua University, 
+                      <sup>2</sup>Peng Cheng Laboratory, <br>
+                      <sup>3</sup>ETH Zurich, 
+                      <sup>4</sup>Meshcapade ,
+                      <sup>5</sup>Beijing Normal University 
+                      <br>CVPR 2024
+                    </span>
+                    <!-- <span class="author-block">Tsinghua University, Tsinghua Shenzhen International Graduate School<sup>1</sup>, Northwestern Polytechnic University<sup>2</sup><br>ICCV 2023</span> -->
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution, <sup>* Indicates Corresponding Authors </sup></small></span> -->
+                  </div>
+
+                  <!-- <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2212.03741.pdf" target="_blank"
+                        class="external-link ">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span> -->
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link ">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <!-- <a href="https://github.com/li-ronghui/FineDance" target="_blank" -->
+                    <a target="_blank"
+                    class="external-link ">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (Comming Soon)</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <!-- <a href="https://arxiv.org/abs/2212.03741" target="_blank" -->
+                  <a target="_blank"
+                  class="external-link ">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                <span>arXiv (Comming Soon)
+                </span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">
+        FineDance dataset Show 
+      </h2>
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="finedance\teaser\datasetshow.mp4"
+        type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose Lodge, a network capable of generating extremely long dance sequences conditioned on given music. We design Lodge as a two-stage coarse to fine diffusion architecture, and propose the characteristic dance primitives that possess significant expressiveness as intermediate representations between two diffusion models. The first stage is global diffusion, which focuses on comprehending the coarse-level music-dance correlation and production characteristic dance primitives. In contrast, the second-stage is the local diffusion, which parallelly generates detailed motion sequences under the guidance of the dance primitives and choreographic rules. In addition, we propose a Foot Refine Block to optimize the contact between the feet and the ground, enhancing the physical realism of the motion. Our approach can parallelly generate dance sequences of extremely long length, striking a balance between global choreographic patterns and local motion quality and expressiveness. Extensive experiments validate the efficacy of our method.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Overview -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div></div> <!-- 添加一个空的 div 元素 -->
+      <div></div>
+      <h2 class="title is-3">
+        Overview
+      </h2>
+      <img src="lodge/Method.jpg" alt="MY ALT TEXT"/>
+      <figcaption class="image-caption">Fig.1 The overview of Lodge. 'LD' means Local Diffusion. </figcaption>
+      <div class="content has-text-justified">
+        <p>
+          In order to simultaneously consider both the global choreographic rules and the local dance details, we design a coarse to fine diffusion network with two stages. The first stage is the global diffusion, which uses the global music feature to learn the choreography patterns and produce characteristic dance primitives. The dance primitives are expressive key motions with a higher motion kinematic energy. The second stage is the Local Diffusion (LD), which focuses on the quality of short-duration dance generation and can be run in parallel to improve the generation efficiency.
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Overview -->
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">
+        Results
+      </h2>
+      As shown in the following videos (Please unmute for music), Lodge can generates long dances from given music.
+      <div class="multivideo-container"></div>
+        <video poster="" id="tree1" autoplay controls muted loop>
+          <source src="lodge\results\204.mp4"
+          type="video/mp4">
+        </video>
+        <video poster="" id="tree3" autoplay controls muted loop>
+          <source src="lodge\results\098_2_res1_hint100.mp4"
+          type="video/mp4">
+        </video>
+        <video poster="" id="tree4" autoplay controls muted loop>
+          <source src="lodge\results\063_res1_hint50.mp4"
+          type="video/mp4">
+        </video>
+        <video poster="" id="tree2" autoplay controls muted loop>
+          <source src="lodge\results\193_res2_hint100.mp4"
+          type="video/mp4">
+        </video>
+        <video poster="" id="tree2" autoplay controls muted loop>
+          <source src="lodge\results\065_2.mp4"
+          type="video/mp4">
+        </video>
+        <video poster="" id="tree2" autoplay controls muted loop>
+          <source src="lodge\results\065.mp4"
+          type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Demo video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">
+        Demo Video
+      </h2>
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="lodge\Lodge_video.mp4"
+        type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+<!-- End Demo video -->
+
+
+
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <h2 class="title is-3">
+      Gallary
+    </h2>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="finedance\teaser\dataset_show.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          FineDance dataset show.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="finedance\teaser\Multi-gen.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Generated multi-genre dances.
+        </h2>
+      </div> -->
+      <!-- <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="finedance\teaser\methods_results.jpeg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Compare with sotas.
+       </h2>
+     </div> -->
+     <!-- <div class="item">
+      <img src="finedance\teaser\MM1.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Generated diverse dances form the same music.
+      </h2>
+    </div>
+    <div class="item">
+      <img src="finedance\teaser\MM2.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Generated diverse dances form the same music.
+      </h2>
+    </div>
+    <div class="item">
+      <img src="finedance\teaser\MM3.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Generated diverse dances form the same music.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+<!-- Paper poster 
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+End paper poster -->
+
+
+<!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@InProceedings{Li_2023_ICCV,
+    author    = {Li, Ronghui and Zhang, Yuxiang and Zhang, Yachao and Zhang, Hongwen and Guo, jie and Zhang, Yan and Liu, Yebin and and Li, Xiu},
+    title     = {Lodge: A Coarse to Fine Diffusion Network for Long Dance Generation Guided by the Characteristic Dance Primitives},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {10234-10243}
+}</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/vinthony/project-page-template">modification version</a> of <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> from <a href="https://github.com/vinthony">vinthony</a>.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
