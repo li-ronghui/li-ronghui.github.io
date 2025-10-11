@@ -23,7 +23,7 @@ ________________________________________________________________________________
   <li> <strong>[Oct 2025]</strong> One first-author paper about long dance generation accepted by TPAMI!</li>
   <li> <strong>[Jun 2025]</strong> Recognized as <strong>outstanding</strong> reviewer at CVPR 2025!</li>
   <li> <strong>[May 2025]</strong> Our team was awarded a <strong>Gold Medal</strong> at the International Exhibition of Inventions Geneva!</li>  
-  <li> <strong>[Jul 2025]</strong> Three papers (first-author) about motion/video generation ACM MM 2025!</li>
+  <li> <strong>[Jul 2025]</strong> Three papers about motion/video generation ACM MM 2025!</li>
   <li> <strong>[Jun 2025]</strong> Two papers about huamn motion capture and generation by ICCV 2025!</li>
   <li> <strong>[Feb 2025]</strong> One paper about Text-to-Motion Generation with GPT-4Vision Reward is accepted by CVPR 2025!</li>
   <li> <strong>[Dec 2024]</strong> One paper about group dance generation accepted by AAAI!</li>
