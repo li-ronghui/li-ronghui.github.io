@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am currently a third-year Ph.D. candidate at Tsinghua University, supervised by Prof. [Xiu Li](https://thusigsiclab.github.io/thu.github.io/).
+I am currently a last year Ph.D. candidate at Tsinghua University, supervised by Prof. [Xiu Li](https://thusigsiclab.github.io/thu.github.io/).
 I was fortunate to be a visiting student at MMLAB@NTU, where I worked with Prof. [Ziwei Liu](https://liuziwei7.github.io/index.html) on the intersection of MLLM and human motion.
 Earlier in my Ph.D. journey, I had the opportunity to explore digital human modeling under the kind guidance of Prof. [Yebin Liu](http://www.liuyebin.com/).
 My research interests lie in <strong>human motion and interaction synthesis, motion modeling, generative models, and embodied AI</strong>.
@@ -20,9 +20,10 @@ ________________________________________________________________________________
   <a name="news"></a> 🆕News
 </h3>
 <div class="mini">
+  <li> <strong>[Jun 2025]</strong> One first-author paper about long dance generation accepted by TPAMI!</li>
   <li> <strong>[Jun 2025]</strong> Recognized as <strong>outstanding</strong> reviewer at CVPR 2025!</li>
   <li> <strong>[May 2025]</strong> Our team was awarded a <strong>Gold Medal</strong> at the International Exhibition of Inventions Geneva!</li>  
-  <li> <strong>[Jul 2025]</strong> Three papers about motion/video generation ACM MM 2025!</li>
+  <li> <strong>[Jul 2025]</strong> Three papers (first-author) about motion/video generation ACM MM 2025!</li>
   <li> <strong>[Jun 2025]</strong> Two papers about huamn motion capture and generation by ICCV 2025!</li>
   <li> <strong>[Feb 2025]</strong> One paper about Text-to-Motion Generation with GPT-4Vision Reward is accepted by CVPR 2025!</li>
   <li> <strong>[Dec 2024]</strong> One paper about group dance generation accepted by AAAI!</li>
@@ -62,9 +63,9 @@ ________________________________________________________________________________
                     <br>
                     <strong>Ronghui Li</strong>, Hongwen Zhang, Yachao Zhang, Yuxiang Zhang,  Youliang Zhang,  Jie Guo, Yan Zhang, Xiu Li, Yebin Liu.
                     <br>
-                    <em>arxiv</em>
+                    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence. (Accepted)</em>
                     <br>
-                    [<a href="https://li-ronghui.github.io/lodgepp">Project</a>][<a href="https://arxiv.org/pdf/2410.20389">Paper</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
+                    [<a href="https://li-ronghui.github.io/lodgepp">Project</a>][<a href="https://ieeexplore.ieee.org/document/11193731">Paper</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
                     </td>
                 </tr>
                 <tr>
