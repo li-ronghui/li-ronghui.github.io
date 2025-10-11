@@ -20,7 +20,7 @@ ________________________________________________________________________________
   <a name="news"></a> 🆕News
 </h3>
 <div class="mini">
-  <li> <strong>[Jun 2025]</strong> One first-author paper about long dance generation accepted by TPAMI!</li>
+  <li> <strong>[Oct 2025]</strong> One first-author paper about long dance generation accepted by TPAMI!</li>
   <li> <strong>[Jun 2025]</strong> Recognized as <strong>outstanding</strong> reviewer at CVPR 2025!</li>
   <li> <strong>[May 2025]</strong> Our team was awarded a <strong>Gold Medal</strong> at the International Exhibition of Inventions Geneva!</li>  
   <li> <strong>[Jul 2025]</strong> Three papers (first-author) about motion/video generation ACM MM 2025!</li>
@@ -80,6 +80,20 @@ ________________________________________________________________________________
                     <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2024)</em>
                     <br>
                     [<a href="https://li-ronghui.github.io/lodge">Project</a>][<a href="http://arxiv.org/abs/2403.10518">Paper</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/motionupg.png" border="0">
+                            </td>
+                    <td>
+                            <b>A Motion is Worth a Hybrid Sentence: Taming Language Model for Unified Motion Generation by Fine-grained Planning</b>
+                    <br>
+                    <strong>Ronghui Li</strong>, Lingxiao Han, Shi Shu, Yueyao Liu, Yukang Lin, Yue Ma, Jie Guo, Ziwei Liu, Xiu Li.
+                    <br>
+                    <em>ACM International Conference on Multimedia. (ACM MM 2025)</em>
+                    <br>
+                    [<a href="https://li-ronghui.github.io/motionupg.github.io/">Project page</a>]
                     </td>
                 </tr>
                 <tr>
