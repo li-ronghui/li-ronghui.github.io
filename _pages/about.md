@@ -13,7 +13,7 @@ I am currently a last year Ph.D. candidate at Tsinghua University, supervised by
 I was fortunate to be a visiting student at MMLAB@NTU, where I worked with Prof. [Ziwei Liu](https://liuziwei7.github.io/index.html) on the intersection of MLLM and human motion.
 Earlier in my Ph.D. journey, I had the opportunity to explore digital human modeling under the kind guidance of Prof. [Yebin Liu](http://www.liuyebin.com/).
 Before beginning my Ph.D., I obtained my master’s degree from Northeastern University, where I conducted research on vision-language models under the supervision of Prof. Lu Meng.
-My research interests lie in <strong>human motion and interaction synthesis, motion modeling, generative models, and embodied AI</strong>.
+My research interests lie in <strong>human-centered vision, including modeling human motion and human-centric interactions for avatars, embodied intelligence, generative models, and MLLMs</strong>.
 
 
 _______________________________________________________________________________________________________
