@@ -13,7 +13,7 @@ I am currently a last year Ph.D. candidate at Tsinghua University, supervised by
 I was fortunate to be a visiting student at MMLAB@NTU, where I worked with Prof. [Ziwei Liu](https://liuziwei7.github.io/index.html) on the intersection of MLLM and human motion.
 Earlier in my Ph.D. journey, I had the opportunity to explore digital human modeling under the kind guidance of Prof. [Yebin Liu](http://www.liuyebin.com/).
 Before beginning my Ph.D., I obtained my master’s degree from Northeastern University, where I conducted research on vision-language models under the supervision of Prof. Lu Meng.
-My research interests lie in <strong>human-centered vision, including modeling human motion and human-centric interactions for avatars, embodied intelligence, generative models, and MLLMs</strong>.
+My research interests lie in <strong>human-centered vision, including modeling human motion and human-centric interactions for avatars, generative models, MLLMs and embodied intelligence</strong>.
 
 
 _______________________________________________________________________________________________________
@@ -122,7 +122,7 @@ ________________________________________________________________________________
                     <br>
                     <em>Association for the Advance of Artificial Intelligence (AAAI 2025)</em>
                     <br>
-                    [<a href="https://wanluzhu.github.io/TCDiffusion/">Project</a>][<a href="https://arxiv.org/abs/2403.06189">Paper</a>][<a href="https://github.com/Da1yuqin/TCDiff">Code Comming</a>]
+                    [<a href="https://wanluzhu.github.io/TCDiffusion/">Project</a>][<a href="https://arxiv.org/abs/2403.06189">Paper</a>][<a href="https://github.com/Da1yuqin/TCDiff">Code</a>]
                     </td>
                 </tr>
                 <tr>
@@ -136,7 +136,7 @@ ________________________________________________________________________________
                     <br>
                     <em>Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</em>
                     <br>
-                    [<a href="https://kkakkkka.github.io/MambaTalk/">Project</a>][<a href="https://arxiv.org/abs/2403.09471">Paper</a>]
+                    [<a href="https://kkakkkka.github.io/MambaTalk/">Project</a>][<a href="https://arxiv.org/abs/2403.09471">Paper</a>][<a href="https://github.com/kkakkkka/MambaTalk">Code</a>]
                     </td>
                 </tr>
                 <tr>
@@ -152,6 +152,90 @@ ________________________________________________________________________________
  (ICASSP 2024)</em>
                     <br>
                     [<a href="https://arxiv.org/abs/2401.01382">Paper</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/homepage/PMR.png" border="0">
+                            </td>
+                    <td>
+                            <b>A Plug-and-Play Physical Motion Restoration Approach for In-the-Wild High-Difficulty Motions</b>
+                    <br>
+                    Youliang Zhang<sup>★</sup>, <strong>Ronghui Li</strong><sup>★</sup>, Yachao Zhang, Liang Pan, Jingbo Wang, Yebin Liu, Xiu Li. 
+                    <br>
+                    <em>IEEE/CVF Conference on International Conference on Computer Vision (ICCV 2025)</em>
+                    <br>
+                    [<a href="https://physicalmotionrestoration.github.io/">Project</a>][<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_A_Plug-and-Play_Physical_Motion_Restoration_Approach_for_In-the-Wild_High-Difficulty_Motions_ICCV_2025_paper.pdf">Paper</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/homepage/Souldance.png" border="0">
+                            </td>
+                    <td>
+                            <b>SoulDance: Music-Aligned Holistic 3D Dance Generation.</b>
+                    <br>
+                    Xiaojie Li, <strong>Ronghui Li</strong>, Shukai Fang, Shuzhao Xie, Xiaoyang Guo, Jiaqing Zhou, Junkun Peng, Zhi Wang. 
+                    <br>
+                    <em>IEEE/CVF Conference on International Conference on Computer Vision (ICCV 2025)</em>
+                    <br>
+                    [<a href="https://xjli360.github.io/SoulDance/">Project</a>][<a href="https://arxiv.org/abs/2507.14915">Paper</a>][<a href="https://github.com/xjli360/SoulDance-Official">Code</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/homepage/TCDiffpp.png" border="0">
+                            </td>
+                    <td>
+                            <b>TCDiff++: An End-to-end Trajectory-Controllable Diffusion Model for Harmonious Music-Driven Group Choreography.</b>
+                    <br>
+                    Yuqin Dai, Wanlu Zhu, <strong>Ronghui Li</strong>, Xiu Li, Zhenyu Zhang, Jun Li, Jian Yang. 
+                    <br>
+                    <em>International Journal of Computer Vision (IJCV)</em>
+                    <br>
+                    [<a href="https://da1yuqin.github.io/TCDiffpp.website/">Project</a>][<a href="https://arxiv.org/pdf/2506.18671">Paper</a>][<a href="https://github.com/Da1yuqin/TCDiffpp">Code</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/homepage/Atom.png" border="0">
+                            </td>
+                    <td>
+                            <b>AToM: Aligning Text-to-Motion Model at Event-Level with GPT-4Vision Reward.</b>
+                    <br>
+                    Haonan Han, Xiangzuo Wu, Huan Liao, Zunnan Xu, Zhongyuan Hu, </strong>Ronghui Li</strong>, Yachao Zhang, Xiu Li. 
+                    <br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2025)</em>
+                    <br>
+                    [<a href="https://atom-motion.github.io/">Project</a>][<a href="https://arxiv.org/pdf/2411.18654">Paper</a>][<a href="https://github.com/VincentHancoder/AToM">Code</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/homepage/piano.png" border="0">
+                            </td>
+                    <td>
+                            <b>Separate to Collaborate: Dual-Stream Diffusion Model for Coordinated Piano Hand Motion Synthesis.</b>
+                    <br>
+                    Zihao Liu, Mingwen Ou, Zunnan Xu, Jiaqi Huang, Haonan Han, <strong>Ronghui Li</strong>, Xiu Li.
+                    <br>
+                    <em>ACM International Conference on Multimedia (ACM MM 2025)</em>
+                    <br>
+                    [<a href="https://monkek123king.github.io/S2C_page/">Project</a>][<a href="https://arxiv.org/abs/2504.09885">Paper</a>][<a href="https://github.com/monkek123King/S2C">Code</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
+                        <img width="320" src="../images/homepage/InterAnimate.jpg" border="0">
+                            </td>
+                    <td>
+                            <b>Interanimate: Taming region-aware diffusion model for realistic human interaction animation.</b>
+                    <br>
+                    Yukang Lin, Yan Hong, Zunnan Xu, Xindi Li, Chao Xu, Chuanbiao Song, <strong>Ronghui Li</strong>, Haoxing Chen, Jun Lan, Huijia Zhu, Weiqiang Wang, Jianfu Zhang, Xiu Li. 
+                    <br>
+                    <em>ACM International Conference on Multimedia (ACM MM 2025)</em>
+                    <br>
+                    [<a href="https://arxiv.org/abs/2507.14915">Project</a>][<a href="https://arxiv.org/abs/2507.14915">Paper</a>]
                     </td>
                 </tr>
                 <tr>
