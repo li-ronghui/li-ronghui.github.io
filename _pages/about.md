@@ -57,6 +57,20 @@ ________________________________________________________________________________
            <tbody>
                 <tr>
                     <td width="40%">
+                        <img width="320" src="../images/homepage/InfiniteDance.png" border="0">
+                            </td>
+                    <td>
+                            <b>InfiniteDance: Scalable 3D Dance Generation Towards in-the-wild Generalization</b>
+                    <br>
+                    <strong>Ronghui Li</strong>, Zhongyuan Hu, Siyao Li, Youliang Zhang, Haozhe Xie, Mingyuan Zhang, Jie Guo, Xiu Li, Ziwei Liu.
+                    <br>
+                    <em>European Conference on Computer Vision (ECCV 2026)</em>
+                    <br>
+                    [<a href="https://infinitedance.github.io/">Project</a>][<a href="https://arxiv.org/abs/2603.13375">Paper</a>][<a href="https://github.com/MotrixLab/InfiniteDance">Code</a>]
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
                         <img width="320" src="../images/Lodgepp_show.gif" border="0">
                             </td>
                     <td>
