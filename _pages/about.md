@@ -80,7 +80,7 @@ ________________________________________________________________________________
                     <br>
                     <em>IEEE Transactions on Pattern Analysis and Machine Intelligence. (Accepted)</em>
                     <br>
-                    [<a href="https://li-ronghui.github.io/lodgepp">Project</a>][<a href="https://ieeexplore.ieee.org/document/11193731">Paper</a>][<a href="https://github.com/li-ronghui/LODGE">Code</a>]
+                    [<a href="https://li-ronghui.github.io/lodgepp">Project</a>][<a href="https://ieeexplore.ieee.org/document/11193731">Paper</a>][<a href="https://github.com/li-ronghui/LODGEPP">Code</a>]
                     </td>
                 </tr>
                 <tr>
