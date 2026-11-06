@@ -78,9 +78,9 @@ ________________________________________________________________________________
                     <br>
                     <strong>Ronghui Li</strong>, Hongwen Zhang, Yachao Zhang, Yuxiang Zhang,  Youliang Zhang,  Jie Guo, Yan Zhang, Xiu Li, Yebin Liu.
                     <br>
-                    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence. (Accepted)</em>
+                    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence.</em>
                     <br>
-                    [<a href="https://li-ronghui.github.io/lodgepp">Project</a>][<a href="https://ieeexplore.ieee.org/document/11193731">Paper</a>][<a href="https://github.com/li-ronghui/LODGEPP">Code</a>]
+                    [<a href="https://li-ronghui.github.io/lodgepp">Project</a>][<a href="https://ieeexplore.ieee.org/abstract/document/11193731">Paper</a>][<a href="https://github.com/li-ronghui/LODGEPP">Code</a>]
                     </td>
                 </tr>
                 <tr>
